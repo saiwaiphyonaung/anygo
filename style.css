@@ -1,0 +1,89 @@
+/* for disable pad and marg from the tag  */
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+/* for disable margin bottom under p  */
+p{
+    margin-bottom: 0px;
+}  
+h4{
+    color: brown;
+    font-family: d;
+}
+.Ctitle{
+    font-family: d;
+}
+sup{
+    color: brown;
+    font-size: 12px;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.card{
+    display: flex;
+    text-align: center;
+    animation-duration: 1s;
+    animation:bounceIn;
+     box-shadow: 5px 5px 10px rgb(218, 218, 218);
+    }
+    
+
+
+.card-img-top{
+    box-shadow: 5px 5px 10px rgb(218, 218, 218);
+}
+
+.card-title{
+    font-family: d;
+}
+.card-text{
+    font-family: q;
+}
+a{
+    font-family: d;
+
+}
+hr {
+    visibility:visible;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 20%;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+.CP{
+    margin-bottom: 30px;
+    
+}
+.Amore{
+    margin-top: 30px;
+    letter-spacing: 2px;
+    animation-duration: 4s;
+    animation:bounce;
+    animation-iteration-count: infinite;
+    
+}
+.btn:hover{
+    background-color:white;
+    color: black;
+    animation: bounce;
+    animation-duration: 0.5s;
+    
+    
+    }
+
+
+     
+
+
